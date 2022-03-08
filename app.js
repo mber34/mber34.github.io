@@ -28,14 +28,13 @@ for (let i = 1; i <= thisMonth; i++) {
     listDayOfMonth.push(dayOfMonth(2022, i))
 }
 
-<<<<<<< HEAD
+
 console.log(listDayOfMonth)
 =======
 for(let i = 0; i < 9; i++) {
     var randy = Math.floor(Math.random()*9)*10;
     var randx = Math.floor(Math.random()*9)*10;
     var randlink = Math.floor(Math.random()*8);
->>>>>>> 6f5ae6baf5e9ccef0c6c370a01bd2024989100f2
 
 var a = 0;
 for (let i = 0; i < listDayOfMonth.length; i++) {
@@ -57,7 +56,7 @@ if (countOfMonth.toFixed(1) == 12) {
     document.getElementById('countMonth').innerText = countOfMonth.toFixed(1) + " tháng";
 }
 
-<<<<<<< HEAD
+
 const twichClick = () => {
     isInfo = !isInfo;
     if (isInfo == true) {
@@ -75,4 +74,3 @@ const twichClick = () => {
 =======
     createDot(mousex, mousey);
 });
->>>>>>> 6f5ae6baf5e9ccef0c6c370a01bd2024989100f2
