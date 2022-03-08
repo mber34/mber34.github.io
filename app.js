@@ -71,6 +71,5 @@ const twichClick = () => {
         pictureContent.style.display = 'block';
     }
 }
-=======
     createDot(mousex, mousey);
 });
