@@ -30,7 +30,6 @@ for (let i = 1; i <= thisMonth; i++) {
 
 
 console.log(listDayOfMonth)
-=======
 for(let i = 0; i < 9; i++) {
     var randy = Math.floor(Math.random()*9)*10;
     var randx = Math.floor(Math.random()*9)*10;
