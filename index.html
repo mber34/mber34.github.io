@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Love</title>
+</head>
+<body>
+    <div class="container">
+        <div class="banner"></div>
+        <div class="content">
+            <div class="avt">
+                <img src="./image/avtf.jpg">
+                <div class="more1">
+                    <h5>17</h5>
+                    <div class="zodiac-leo"></div>
+                </div>
+            </div>
+            <div class="heart">
+                <img src="./image/438-4388061_minimal-png.png" class="heart-shadow">
+            </div>
+            <div class="avt">
+                <img src="./image/avtm.jpg">
+                <div class="more2">
+                    <h5>18</h5>
+                    <div class="zodiac-sagittarius"></div>
+                </div>
+            </div>
+        </div>
+        <div class="date">
+            <div class="dateContainer" id="dateContainer">
+                <div class="dateContent" id="dateContent">
+                    <p id="day"></p>
+                    <p id="countDay"></p>
+                    <p id="countMonth"></p>
+                </div>
+                <div class="pictureContent" id="pictureContent">
+                    <ul>
+                        <li><img src="./image/bevy1.jpg"></li>
+                        <li><img src="./image/bevy2.jpg"></li>
+                        <li><img src="./image/bevy3.jpg"></li>
+                        <li><img src="./image/bevy4.jpg"></li>
+                        <li><img src="./image/bevy5.jpg"></li>
+                        <li><img src="./image/bevy6.jpg"></li>
+                        <li><img src="./image/bevy7.jpg"></li>
+                        <li><img src="./image/bevy8.jpg"></li>
+                    </ul>
+                </div>
+                <img src="./image/info.jpg" id="twich" onclick="twichClick()">
+            </div>
+        </div>
+        <div class="music">
+            <img src="./image/background_1.jpg" id="thumb">
+            <div class="text">
+                <h5 style="color: white" id="audioName">100 Years Love</h5>
+                <h6 style="color: white" id="audioDes">NamDuc</h6>
+            </div>
+            <audio src="./audio/100yearslove.mp3" id="audioMain"></audio>
+            <div class="button-bar">
+                <button id="backButton" onclick="backEvent()"></button>
+                <button id="playButton" onclick="playing()"></button>
+                <button id="nextButton" onclick="nextEvent()"></button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+<script src="./music.js"></script>
+</html>
